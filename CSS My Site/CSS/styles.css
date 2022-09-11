@@ -1,4 +1,5 @@
 .top-container{
+
   background-color: #E4F9F5;
   padding-top: 100px;
   position: relative;
@@ -9,11 +10,20 @@
     /* border-width: 10px; */
   /* padding:20px; */
 }
+p{
+  line-height: 2;
+}
 body{
+color: #40514E;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
+
 }
+a{
+  color: #11999E;
+}
+
 h1{
   /* position: absolute; */
   /* top:200px; */
@@ -22,30 +32,41 @@ h1{
 
   margin:50px auto 0 auto;
   font-family: 'Sacramento', cursive;
+  color:  #66BFBF;
+  line-height: 2;
 
 
 }
 h2{
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
+    color:  #66BFBF;
+    font-weight: normal;
+    padding-bottom: 10px;}
+.intro{
+  width:30%;
+  margin: auto;
 }
 h3{
   font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
+    color:  #11999E;
 }
 /* h1 { font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; } */
-.mid-container{
+/* .mid-container{
   /* background-color: red;
   width: 200px;
   height: 200px;
-  /* margin-left: 260px; */ */
+  /* margin-left: 260px; */
   /* border-style: solid; */
     /* border-width: 20px; */
+.middle-container{
+  margin:100px 0;
 }
 .bottom-container{
   /* background-color:
   /* margin-left:500px; */
-  /* width: 200px;
+  /* width: 200px;g
   height: 200px; */
   /* border-style: solid; */
     /* border-width: 10px; */
@@ -67,4 +88,30 @@ span{
   left:300px;
   bottom: 300px;
 
+}
+.contact-message{
+  width:30%;
+  margin:40px auto 60px;
+}
+.skill-row{
+  width: 55%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.developer{
+  width: 35%;
+  float: left;
+margin-right: 30px;
+}
+.git{
+  width: 35%;
+  float:right;
+  margin-left: 30px;
+}
+hr{
+  border: dotted #EAF6F6 4px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
 }
