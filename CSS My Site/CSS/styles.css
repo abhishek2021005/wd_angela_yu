@@ -65,6 +65,8 @@ h3{
   margin:100px 0;
 }
 .bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
   /* background-color:
   /* margin-left:500px; */
   /* width: 200px;g
@@ -141,4 +143,19 @@ hr{
   background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
+}
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+
+}
+a:hover{
+  color: #EAF6F6;
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
 }
