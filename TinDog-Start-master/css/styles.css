@@ -28,6 +28,13 @@ h3{
   font-size: 1.5rem;
   font-weight: 900;
 }
+h2{
+  font-family:"Montserrat-Bold";
+  font-family: sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
 p{
   color:#8f8f8f;
 }
@@ -60,6 +67,7 @@ p{
 #features{
   padding:7% 14%;
 }
+
 .feature-box{
   text-align: center;
   padding:5%;
@@ -70,6 +78,41 @@ p{
 }
 .icon:hover{
   color:#ff4c68;
+}
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+
+  color: #fff;
+}
+.testimonial-img{
+  width:10%;
+  border-radius: 100%;
+  margin: 20px ;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width:15%;
+  margin: 20px 20px 50px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  font-size: 3rem;
+  font-weight: bold;
+  /* height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  /* border-radius: 50%; */
+  /* border: 1px solid black;
+  background-image: none; */
 }
 /* <i class="fa-solid fa-bullseye"></i>
 <i class="fa-solid fa-heart"></i>
