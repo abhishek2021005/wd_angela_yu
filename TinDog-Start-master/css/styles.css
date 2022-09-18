@@ -4,6 +4,7 @@ body{
 #title{
   background-color: #ff4c68;
   color:#fff;
+
 }
 
 /* h1{
@@ -62,10 +63,15 @@ p{
 .title-image{
   width: 60%;
   transform: rotate(25deg);
+  /* position: absolute; */
 }
 /* Features */
 #features{
+  background-color: #fff;
   padding:7% 14%;
+  position: relative;
+  z-index: 1;
+
 }
 
 .feature-box{
@@ -113,6 +119,22 @@ p{
   /* border-radius: 50%; */
   /* border: 1px solid black;
   background-image: none; */
+}
+/* Pricing Section */
+.pricing-btn{
+  margin-top: 40px;
+
+}
+.pricing-btn-3{
+  margin-top: auto;
+
+}
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column{
+  padding: 3% 2%;
 }
 /* <i class="fa-solid fa-bullseye"></i>
 <i class="fa-solid fa-heart"></i>
