@@ -13,7 +13,7 @@ body{
    line-height: 1.5;
 } */
 .container-fluid{
-  padding: 3% 15%;
+  padding: 3% 15%  ;
 }
 h1 {
     font-family: "Montserrat";
@@ -60,20 +60,38 @@ p{
   margin: 5% 3% 5% 0;
 }
 /* Title Image */
+.pos{
+  position: relative;
+min-height: 300px;
+
+}
 .title-image{
+/* padding-top: 40px; */
+
   width: 60%;
   transform: rotate(25deg);
-  /* position: absolute; */
+   position: absolute;
+   right:30%;
+  /* z-index: 1; */
+  /* right:30%; */
+
 }
+
 /* Features */
 #features{
+
+  padding:7% 15%;
   background-color: #fff;
-  padding:7% 14%;
   position: relative;
-  z-index: 1;
+  /* z-index: 1; */
+
+
 
 }
-
+/* .pos-1{
+  position: relative;
+  z-index: -1;
+} */
 .feature-box{
   text-align: center;
   padding:5%;
