@@ -4,6 +4,7 @@ body{
 #title{
   background-color: #ff4c68;
   color:#fff;
+
 }
 
 /* h1{
@@ -12,7 +13,7 @@ body{
    line-height: 1.5;
 } */
 .container-fluid{
-  padding: 3% 15%;
+  padding: 3% 15%  ;
 }
 h1 {
     font-family: "Montserrat";
@@ -59,15 +60,38 @@ p{
   margin: 5% 3% 5% 0;
 }
 /* Title Image */
+.pos{
+  position: relative;
+min-height: 300px;
+
+}
 .title-image{
+/* padding-top: 40px; */
+
   width: 60%;
   transform: rotate(25deg);
-}
-/* Features */
-#features{
-  padding:7% 14%;
+   position: absolute;
+   right:30%;
+  /* z-index: 1; */
+  /* right:30%; */
+
 }
 
+/* Features */
+#features{
+
+  padding:7% 15%;
+  background-color: #fff;
+  position: relative;
+  /* z-index: 1; */
+
+
+
+}
+/* .pos-1{
+  position: relative;
+  z-index: -1;
+} */
 .feature-box{
   text-align: center;
   padding:5%;
@@ -113,6 +137,22 @@ p{
   /* border-radius: 50%; */
   /* border: 1px solid black;
   background-image: none; */
+}
+/* Pricing Section */
+.pricing-btn{
+  margin-top: 40px;
+
+}
+.pricing-btn-3{
+  margin-top: auto;
+
+}
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column{
+  padding: 3% 2%;
 }
 /* <i class="fa-solid fa-bullseye"></i>
 <i class="fa-solid fa-heart"></i>
